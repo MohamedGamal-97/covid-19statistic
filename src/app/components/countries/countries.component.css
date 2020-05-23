@@ -3,11 +3,31 @@
     margin: 0 auto;
 }
 
-.mydiv{
-    /* height: 100px; */
-    background-color: red;
+
+.alert{
+    border: 1px solid #fff;
+border-radius: 50px;
+overflow: hidden;
+width: 22%;
+text-align: center;
+display: inline-block;
+background: linen;
+
 }
 
-.animation{
-    width: 100px;
+.alert img{
+    float: left;
+width: 30px;
+height: 25px;
+}
+
+.alert div{
+    float: left;
+padding: 2px;
+color: #001866;
+}
+
+
+.customeMargin{
+    margin-bottom: 30px;
 }
