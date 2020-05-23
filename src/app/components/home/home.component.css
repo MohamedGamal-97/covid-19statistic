@@ -3,9 +3,9 @@
 } */
 
 .intro{
-    background-color: #f2f2f2;
-overflow: hidden;
-width: 100%;
+    /* background-color: #f2f2f2; */
+    overflow: hidden;
+    width: 100%;
 }
 
 .container-class{

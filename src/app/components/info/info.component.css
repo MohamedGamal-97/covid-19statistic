@@ -1,7 +1,7 @@
 .what{
-    background-color: #f2f2f2;
-overflow: hidden;
-width: 100%;
+    /* background-color: #f2f2f2; */
+    overflow: hidden;
+    width: 100%;
 }
 
 .container-class{
@@ -60,7 +60,7 @@ margin-top: 136px;
 
 .prevention{
     margin-top: 40px;
-    background-color: red;
+    /* background-color: red; */
 }
 .prevention .talk{
     width: 100%;
@@ -80,7 +80,7 @@ margin-top: 136px;
     float: left;
     width: 20%;
     padding-left: 44px;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .animation{
@@ -88,5 +88,5 @@ margin-top: 136px;
 }
 .addingMoreSpacing{
     height: 275px;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
 }
