@@ -19,6 +19,7 @@
     "@angular/platform-browser": "~9.0.7",
     "@angular/platform-browser-dynamic": "~9.0.7",
     "@angular/router": "~9.0.7",
+    "angular-cli-ghpages": "^0.6.2",
     "angular-google-charts": "^1.1.4",
     "bootstrap": "^4.4.1",
     "ng2-google-charts": "^6.0.0",
