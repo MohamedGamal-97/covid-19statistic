@@ -72,7 +72,7 @@ chart = {
     ).subscribe(
       {
         complete : ()=>{
-         this.updateValues('India')
+         this.updateValues('US')
          this.loading = false;
         }
       }
