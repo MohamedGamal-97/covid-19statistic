@@ -1,12 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { DataServiceService } from 'src/app/services/data-service.service';
 import { GlobalDataSummary } from 'src/app/models/global-data';
+//import  '@lottiefiles/lottie-player';
 
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
+
+  
+          
 })
 export class HomeComponent implements OnInit {
 
@@ -95,6 +99,17 @@ console.log(this.datatable);
 updateChart(input:HTMLInputElement){
   console.log(input.value);
   this.initChart(input.value);
+}
+
+my():void{
+  let m = new Date();
+// document.getElementById("demo").innerHTML = d.getMinutes();
+console.log('minutes : ' + m.getMinutes());
+let d = new Date();
+let curr_date = d.getDate();
+let curr_month = d.getMonth() + 1; //Months are zero based
+let curr_year = d.getFullYear();
+console.log(curr_month + "/" + curr_date + "/" + curr_year);
 }
 
 }
