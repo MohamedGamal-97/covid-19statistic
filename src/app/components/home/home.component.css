@@ -4,8 +4,11 @@
 
 .intro{
     /* background-color: #f2f2f2; */
-    overflow: hidden;
+    /*overflow: hidden;*/
     width: 100%;
+    background-color: var(--darViolet);
+position: relative;
+   
 }
 
 .container-class{
@@ -23,17 +26,43 @@
     width: 94%;
 }
 .info{
-    float: left;
+    /* float: left;
     width: 50%;
     margin: 85px 60px 10px 10px;
+    background-size: auto, auto;
+    background-image: url("../../../assets/pattern-bg.svg"), url("../../../assets/pattern-curve.svg");
+    background-position: top 5rem right 7.3rem, bottom left; */
     
+    float: left;
+width: 60%;
+margin-top: 95px;
+/*margin: 85px 60px 10px 10px;*/
+/*background-size: auto, auto;
+/*background-image: url('../../../assets/pattern-curve.svg');*/
+/*background-position: top 46rem right -60.7rem;*/
 }
 
-.info p{
+ .info p{
     margin: 5px 0 5px 40px;
-    color: #b8bac4;
+    color: #787f9f;
+    font-size: 17px;
+    letter-spacing: 1px;
+} 
+
+/************************************/
+.info p{
+  /*  margin: 1.5rem 0;*/
+/*line-height: 1.6rem;*/
 }
 
+.desktop__left-pattern{
+    position: absolute;
+top: 276px;
+bottom: -322px;
+left: 0;
+}
+
+/******************************************/
 .info p.heading{
     margin: 25px 0 20px 40px;
     color: #00184c;
@@ -60,7 +89,7 @@ border-radius: 50px;
 width: 203px;
 color: #fff;
 text-transform: uppercase;
-margin-left: 50px;
+margin-left: 100px;
 margin-top: 20px;
 cursor: pointer;
 }

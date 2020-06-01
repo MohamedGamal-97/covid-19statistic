@@ -91,7 +91,7 @@ chart = {
     })
   }
   updateValues(country:string){
-    console.log(country);
+    // console.log(country);
     this.data.forEach(cs=>{
       if(cs.country==country){
         this.totalActive=cs.active;
@@ -101,7 +101,7 @@ chart = {
       }
     })
   this.selectedCountryData=this.dateWiseData[country];
-  console.log(this.selectedCountryData)
+  // console.log(this.selectedCountryData)
   this.updateChart();
   }
 
