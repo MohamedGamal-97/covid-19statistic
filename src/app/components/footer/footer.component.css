@@ -1,0 +1,15 @@
+.container-class{
+    width: 1200px;
+    margin: auto;
+}
+
+.customeFooter{
+/* background-color: yellow; */
+text-align: center;
+padding: 60px 0px 30px 0px;
+}
+
+.customeFooter p{
+    border-top: 1px solid #eee;
+    padding: 25px 0px 10px;
+}

@@ -10,6 +10,7 @@ import {HttpClientModule} from '@angular/common/http';
 import { DashboardCardComponent } from './components/dashboard-card/dashboard-card.component';
 import { GoogleChartsModule } from 'angular-google-charts';
 import { InfoComponent } from './components/info/info.component';
+import { FooterComponent } from './components/footer/footer.component';
 // import  '@lottiefiles/lottie-player';
 // import { LottieAnimationViewModule } from 'ng-lottie';
 
@@ -20,7 +21,8 @@ import { InfoComponent } from './components/info/info.component';
     HomeComponent,
     CountriesComponent,
     DashboardCardComponent,
-    InfoComponent
+    InfoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
